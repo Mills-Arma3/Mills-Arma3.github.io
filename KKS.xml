@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE squad [
-    <!ELEMENT squad (email?, web?, picture?, title?, member+)>
+    <!ELEMENT squad (name?, email?, web?, picture?, title?, member+)>
     <!ATTLIST squad nick CDATA #REQUIRED>
     <!ELEMENT member (name?, email?, icq?, remark?)>
     <!ATTLIST member id CDATA #REQUIRED nick CDATA #REQUIRED>
@@ -13,9 +13,10 @@
     <!ELEMENT remark (#PCDATA)>
 ]>
 <squad nick="ZSqn">
+    <name>RSqn</name>
     <email>info@zulusquadron.co.uk</email>
     <web>https://zulusquadron.co.uk/</web>
-    <picture></picture>
+    <picture>hqxm.paa</picture>
     <title>Reserve Squadron</title>
     <member id="76561198011403318" nick="D. Mills">
         <name>D. Mills</name>
