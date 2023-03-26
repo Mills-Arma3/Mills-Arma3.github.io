@@ -12,16 +12,16 @@
     <!ELEMENT title (#PCDATA)>
     <!ELEMENT remark (#PCDATA)>
 ]>
-<squad nick="Zulu">
-    <name>1 Patrol</name>
+<squad nick="ZSqn">
+    <name>Reserve Sqn</name>
     <email>info@zulusquadron.co.uk</email>
     <web>https://zulusquadron.co.uk/</web>
     <picture>1ptrlxm.paa</picture>
-    <title>1 Patrol</title>
+    <title>RSqn</title>
     <member id="76561198011403318" nick="D. Mills">
         <name>D. Mills</name>
         <email>R1C</email>
-        <icq>Gunner</icq>
-        <remark>SC3</remark>
+        <icq>Assaulter</icq>
+        <remark>Tpr</remark>
     </member>
 </squad>
