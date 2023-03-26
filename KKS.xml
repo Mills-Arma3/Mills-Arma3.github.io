@@ -2,7 +2,7 @@
 <!DOCTYPE squad [
     <!ELEMENT squad (name?, email?, web?, picture?, title?, member+)>
     <!ATTLIST squad nick CDATA #REQUIRED>
-    <!ELEMENT member (name?, email?, icq?, remark?)>
+    <!ELEMENT member (name?, Callsign?, Role?, Qualification?)>
     <!ATTLIST member id CDATA #REQUIRED nick CDATA #REQUIRED>
     <!ELEMENT name (#PCDATA)>
     <!ELEMENT email (#PCDATA)>
@@ -12,7 +12,7 @@
     <!ELEMENT title (#PCDATA)>
     <!ELEMENT remark (#PCDATA)>
 ]>
-<squad nick="ZSqn">
+<squad nick="16Troop">
     <name>1 Patrol</name>
     <email>info@zulusquadron.co.uk</email>
     <web>https://zulusquadron.co.uk/</web>
@@ -20,8 +20,8 @@
     <title>1 Patrol</title>
     <member id="76561198011403318" nick="D. Mills">
         <name>D. Mills</name>
-        <email>R1C</email>
-        <icq>Gunner</icq>
-        <remark>SC3</remark>
+        <Callsign>R1C</Callsign>
+        <Role>Gunner</Role>
+        <Qualification>SC3</Qualification>
     </member>
 </squad>
